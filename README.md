@@ -25,3 +25,5 @@ AS AN employer
 <li>WHEN I resize the page or view the site on various screens and devices</li>
 <li>THEN I am presented with a responsive layout that adapts to my viewport</li>
 </ul>
+
+https://zombear323.github.io/advanced-css-challenge-2/
