@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(https://cdn.discordapp.com/attachments/596623839375654963/784666152927363102/gaze20.jpg);
+}
+
+main {
+    padding: 10px;
+}
+
+header {
+    position: relative;
+    padding-top: 12px;
+    padding-bottom: 18px;
+    background-color: #6e1633e8;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+header h1 {
+    font-size: 34px;
+    display: inline-block;
+    text-align: right;
+    position: static;
+    height: 40px;
+    width: 350px;
+    background-color: rgb(129, 214, 188);
+    color: #9e1a46;
+    border-radius: 3px;
+}
+
+header div {
+    padding-top: 10px;
+    margin-right: 25px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-size: 18px;
+}
+
+header ul {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 15px;
+}
+
+a {
+    color: #ffffff;
+    color: rgb(129, 214, 189);
+    text-decoration: underline 3px ;
+    text-underline-offset: 3px;
+}
+
+
+.about {
+    display: flex;
+}
+
+#profile {
+    background-color: #fc0e5d38;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#about-txt {
+    margin: 10px;
+    background-color: rgba(168, 69, 85, 0.678);
+    color: #c6fff3;
+    border-radius: 4px;
+    height: 450px;
+
+}
+
+
+.work {
+    text-align: right;
+    display: inline-flex;
+    float: left;
+    max-width: 70%;
+    background-color: rgba(168, 69, 85, 0.678);
+    color: #c6fff3;
+    border-radius: 4px;
+    margin-bottom: 100px;
+}
+
+
+button {
+    width: 380px;
+    padding: 50px;
+    font-size: 200%;
+    color: #00fcc5;
+    border: 2px solid #13293d;
+    background-color: #9e1a4677;
+}
+  button:hover {
+    background-color: #771432;
+    color: #ffffff;
+}
+#first {
+    display: inline-block;
+    height: 200px;
+    width: 765px;
+    background-color: #9e1a4677;
+    color: #00fcc5;
+}
+#first:hover {
+    display: inline-block;
+    height: 200px;
+    width: 765px;
+    background-image: url('https://media.discordapp.net/attachments/937389336490561609/1102777343094825020/image.png?width=763&height=623');
+    color: #00fcc5;
+}
+
+.contact {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #6e1633e8;
+    color: #c6fff3;
+    border-radius: 4px;
+}
+#contact-txt {
+    margin-bottom: 10px;
+}
+
